@@ -11,7 +11,7 @@ from semantics import ASTSimplifier, SemanticAnalyzer
 
 
 def query_chatgpt(ast):
-    openai.api_key = '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'
+    openai.api_key = 'Replace with api key'
     prompt = f"Process the following abstract syntax tree produced by ChatCode a newly created programming language " \
              f"You are a Syntax and semantic analyser Scan the ast for syntax and semantic errors then compile and provide the output of the program: {ast} " \
              f"Format your responses appropriately."
